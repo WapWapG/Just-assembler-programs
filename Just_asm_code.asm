@@ -22,6 +22,7 @@ mov ebx, 0
 mov ecx, buffer
 mov edx, 4
 int 0x80
+;THIS IS 'yes'!!!!
 cmp dword [buffer], 0x0A736579
 je ravn
 mov eax, 1
