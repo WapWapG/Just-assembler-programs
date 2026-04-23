@@ -4,6 +4,10 @@ ms1 db 'What you say? I am dont know how make if!                 '
 len equ 15
 lennew equ 50
 
+section .bss
+buffer resb 4
+
+
 section .text
 global _start
 _start:
@@ -14,7 +18,16 @@ mov ecx, msg
 int 0x80
 ;Read what user write
 mov eax, 3
+mov ebx, 0
+mov ecx, buffer
+mov edx, 4
 int 0x80
+cmp dword [buffer], 0x0A736579
+je ravn
+mov eax, 1
+xor ebx, ebx
+int 0x80
+ravn:
 ;Write ms1
 mov eax, 4
 mov edx, lennew
