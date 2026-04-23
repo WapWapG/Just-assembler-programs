@@ -1,6 +1,6 @@
 section .data
-msg db 'Hello NASM!!!!!\n'
-len equ 16
+msg db 'Hello NASM!!!!!'
+len equ 15
 
 section .text
 global _start
