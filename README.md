@@ -17,3 +17,6 @@ I WRITE HELLO WORLD MYSELF AND THIS WORK!!!!
 I used read, and add comments in code
 
 Need to write 'yes'
+# Core.asm
+This code for bios, not for compilation! this code not working on pc!
+I think dont work, i really dont know
