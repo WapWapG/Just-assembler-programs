@@ -8,7 +8,8 @@ You can compilate my code using:
 nasm -f elf64 Name.asm -o Name.o
 ld -o Name Name.o
 ```
-
+# /Osdev/Loader.asm
+Guys... THIS WORK ON REAL PC. You can try load it to Qemu or to usb flash
 # test.asm
 This code not for compilation!
 # Hello_world.asm
