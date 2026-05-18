@@ -12,6 +12,10 @@ ld -o Name Name.o
 Guys... THIS WORK ON REAL PC. You can try load it to Qemu or to usb flash
 <img width="647" height="453" alt="изображение" src="https://github.com/user-attachments/assets/179cca90-fc71-4554-b9ba-991d3e214843" />
 
+Update:
+Im add "Hello" using 0Ah, now i am know how write simbols!
+<img width="647" height="455" alt="изображение" src="https://github.com/user-attachments/assets/cfcfe2d8-b435-49ff-9b44-ac6f8702128e" />
+
 # test.asm
 This code not for compilation!
 # Hello_world.asm
